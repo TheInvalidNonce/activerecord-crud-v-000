@@ -25,6 +25,7 @@ end
 def can_be_created_in_a_block
   Movie.create do |m|
     m.title = "Sausage Party"
+    m.release_date = 2016
   end
 end
 
